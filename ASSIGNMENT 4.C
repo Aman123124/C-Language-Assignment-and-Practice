@@ -119,8 +119,8 @@ ASSIGNMENT 4:
                  s=5*i;
                  printf("%d\n",s);
              }
-
-         }
+ 
+          }   
 
 
 
