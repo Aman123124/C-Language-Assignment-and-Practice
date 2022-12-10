@@ -204,8 +204,40 @@ int main()
         }
 
 
+Q. Define a function to calculate x raised to the power y.
+// Online C compiler to run C program online
+    
+#include <stdio.h>
 
+int main()
+{
+    int x,y;
+    printf("enter the value of x or base value =");
+    scanf("%d",&x);
+    printf("enter the value of y or exponential =");
+    scanf("%d",&y);
+    func(x,y);     
+  
+}
 
+int func(int x,int y)
+{
+    if(y>=2)
+    { 
+        int i,z;
+        z=x;
+        
+        for(i=1;i<y;i++)
+        {
+            z=z*x;
+        }
+        printf("the result is = %d",z);
+    }
+    else
+    {
+        printf("result is = %d",x);
+    }
+}
 
 
 
